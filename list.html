@@ -1,0 +1,1417 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>列表页</title>
+	<link rel="stylesheet" type="text/css" href="list.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/list.js"></script>
+</head>
+<body>
+	<!-- 标题 -->
+	<div id="header">
+		<div class="header_nav">
+			<!-- 左边 -->
+			<div class="header_nav1">
+				<ul>
+					
+					<li><a href="#" class="red">亲，请登录</a></li>
+					<a href="#"><li>免费注册</li></a>
+					<a href="#"><li>&nbsp;&nbsp;&nbsp;&nbsp;手机逛淘宝</li></a>
+				</ul>
+			</div>
+			<!-- 右边 -->
+			<div class="header_nav2">
+				<ul id="header_nav2_aa">
+					<a href="#"><li id="header_nav2_1">我的淘宝&nbsp;&nbsp;&nbsp;<img src="image/1.png">&nbsp;
+						<div class="header_nav2_act1">
+							<p>已买到的宝贝</p>
+							<p>我的足迹</p>
+						</div>
+					</li></a>
+					<a href="#"><li><img src="image/5.png">&nbsp;&nbsp;购物车&nbsp;&nbsp;<img src="image/1.png"></li></a>
+					<a href="#"><li id="header_nav2_2">&nbsp;★&nbsp;收藏夹&nbsp;&nbsp;<img src="image/1.png">&nbsp;
+						<div class="header_nav2_act2">
+							<p>收藏的宝贝</p>
+							<p>收藏的店铺</p>
+						</div>
+					</li></a>
+					<a href="#"><li>商品分类<span>|</span></li></a>
+					<a href="#"><li id="header_nav2_3">&nbsp;卖家中心&nbsp;&nbsp;<img src="image/1.png">&nbsp;
+						<div class="header_nav2_act3">
+							<p>免费开店</p>
+							<p>已卖出的宝贝</p>
+							<p>出售中的宝贝</p>
+							<p>卖家服务市场</p>
+							<p>卖家培训中心</p>
+							<p>体验中心</p>
+							<p>问商友</p>
+						</div>
+					</li></a>
+					<a href="#"><li id="header_nav2_4">联系客服&nbsp;&nbsp;&nbsp;<img src="image/1.png">&nbsp;
+						<div class="header_nav2_act4">
+							<p>消费者客服</p>
+							<p>卖家客服</p>
+						</div>
+					</li></a>
+					<a href="#"><li id="header_nav2_5">&nbsp;&nbsp;<img src="image/6.png">&nbsp;网站导航&nbsp;&nbsp;<img src="image/1.png">&nbsp;
+						<div class="header_nav2_act5">
+							<div class="header_nav2_act5_1">
+								<h3>主题市场</h3>
+								<ul>
+									<li>女装</li>
+									<li>箱包</li>
+									<li>手机</li>
+									<li>手表</li>
+									<li>游戏</li>
+									<li>鲜花</li>
+									<li>装修</li>
+									<li>汽车</li>
+									<li>教育</li>
+								</ul>
+								<ul>
+									<li>男装</li>
+									<li>婴童</li>
+									<li>美妆</li>
+									<li>运动</li>
+									<li>动漫</li>
+									<li>宠物</li>
+									<li>建材</li>
+									<li>二手车</li>
+									<li>卡券</li>
+								</ul>
+								<ul>
+									<li>内衣</li>
+									<li>家电</li>
+									<li>珠宝</li>
+									<li>户外</li>
+									<li>影视</li>
+									<li>农资</li>
+									<li>家居</li>
+									<li>办公</li>
+									<li>本地</li>
+								</ul>
+								<ul>
+									<li>鞋靴</li>
+									<li>数码</li>
+									<li>眼镜</li>
+									<li>乐器</li>
+									<li>美食</li>
+									<li>房产</li>
+									<li>百货</li>
+									<li>定制</li>
+								</ul>
+							</div>
+							<div class="header_nav2_act5_2">
+								<h3>特色市场</h3>
+								<ul>
+									<li>iFashion</li>
+									<li>全球购</li>
+									<li>星店</li>
+									<li>拍卖会</li>
+									<li>飞猪</li>
+									<li>农资</li>
+									<li>俪人购</li>
+									<li>全球精选</li>
+									<li>量贩团</li>
+								</ul>
+								<ul>
+									<li>爱逛街</li>
+									<li>腔调</li>
+									<li>极有家</li>
+									<li>淘宝众筹</li>
+									<li>亲宝贝</li>
+									<li>天天特价</li>
+									<li>聚名品</li>
+									<li>非常大牌</li>
+									<li>阿里翻译</li>
+								</ul>
+								<ul>
+									<li>美妆秀</li>
+									<li>淘女郎</li>
+									<li>特色中国</li>
+									<li>中国制造</li>
+									<li>闲鱼</li>
+									<li>Outlets</li>
+									<li>淘抢购</li>
+									<li>试用</li>
+								</ul>
+							</div>
+							<div class="header_nav2_act5_3">
+								<h3>阿里APP</h3>
+								<ul>
+									<li>淘宝</li>
+									<li>聚划算</li>
+									<li>旺信</li>
+									<li>钉钉</li>
+									<li>虾米音乐</li>
+									<li>爱逛街</li>
+									<li>网商银行</li>
+								</ul>
+								<ul>
+									<li>天猫</li>
+									<li>飞猪</li>
+									<li>闲鱼</li>
+									<li>高德地图</li>
+									<li>淘票票</li>
+									<li>拍卖会</li>
+									<li>阿里邮箱</li>
+								</ul>
+								<ul>
+									<li>支付宝</li>
+									<li>蚂蚁聚宝</li>
+									<li>阿里钱盾</li>
+									<li>点点虫</li>
+									<li>菜鸟裹裹</li>
+									<li>阿里云</li>
+									<li>阿里众包</li>
+								</ul>
+							</div>
+							<div class="header_nav2_act5_4">
+								<h3>精彩推荐集</h3>
+								<ul>
+									<li>余额宝</li>
+									<li>淘公仔</li>
+									<li>淘宝香港</li>
+									<li>淘宝全球</li>
+									<li>闺蜜淘货</li>
+									<li>淘工作</li>
+								</ul>
+								<ul>
+									<li>大牌拣宝</li>
+									<li>浏览器</li>
+									<li>淘宝台湾</li>
+									<li>淘宝东南亚</li>
+									<li>大众评审</li>
+								</ul>
+							</div>
+						</div>
+					</li></a>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 导航栏 -->
+	<div id="nav">
+		<img src="image/TB1JQYNJXXXXXbmaXXXXXXXXXXX-540-90.png">
+		<ul>
+			<li><img src="image/TB1orDTJXXXXXcBXFXXy0NjHXXX-200-64.png"></li>
+			<li><img src="image/TB12Pv5JXXXXXaMXpXXy0NjHXXX-200-64.png"></li>
+			<li><img src="image/TB16mbVJXXXXXcrXFXXy0NjHXXX-200-64.png"></li>
+			<li><img src="image/TB1tT23JXXXXXcdXpXXy0NjHXXX-200-64.png"></li>
+		</ul>
+		<input type="text" name="username" value="" placeholder="搜极有家商品">
+		<button></button>
+	</div>
+	<div id="nav2">
+		<ul class="nav2_zuo">
+			<li>首页</li>
+			<li>样板案例</li>
+			<li>发现好物</li>
+		</ul>
+		<ul class="nav2_you">
+			<li>学装修
+				<div class="nav2_you_main">
+					<div class="nav_you_mainq">
+						<h5>1装修设计</h5>
+						<img src="image/TB1YJfwIpXXXXcbXpXXxNcETpXX-50-50.jpeg_50x50.jpg">
+						<div class="nav_you_mainq_1">
+							<p>家装设计师</p>
+							<p>全套设计</p>
+						</div>
+					</div>
+					<div class="nav_you_maina">
+						<h5>装修设计</h5>
+						<img src="image/TB165WfIXXXXXbQaXXXtMOdHXXX-50-50.gif_50x50.jpg">
+						<div class="nav_you_mainq_1">
+							<p>家装设计师</p>
+							<p>全套设计</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>装修设计
+				<div class="nav2_you_main">
+					<div class="nav_you_mainq">
+						<h5>2装修设计</h5>
+						<img src="image/TB1YJfwIpXXXXcbXpXXxNcETpXX-50-50.jpeg_50x50.jpg">
+						<div class="nav_you_mainq_1">
+							<p>家装设计师</p>
+							<p>全套设计</p>
+						</div>
+					</div>
+					<div class="nav_you_maina">
+						<h5>装修设计</h5>
+						<img src="image/TB165WfIXXXXXbQaXXXtMOdHXXX-50-50.gif_50x50.jpg">
+						<div class="nav_you_mainq_1">
+							<p>家装设计师</p>
+							<p>全套设计</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>装修材料
+				<div class="nav2_you_main">
+					<div class="nav_you_mainq">
+						<h5>3装修设计</h5>
+						<img src="image/TB1YJfwIpXXXXcbXpXXxNcETpXX-50-50.jpeg_50x50.jpg">
+						<div class="nav_you_mainq_1">
+							<p>家装设计师</p>
+							<p>全套设计</p>
+						</div>
+					</div>
+					<div class="nav_you_maina">
+						<h5>装修设计</h5>
+						<img src="image/TB165WfIXXXXXbQaXXXtMOdHXXX-50-50.gif_50x50.jpg">
+						<div class="nav_you_mainq_1">
+							<p>家装设计师</p>
+							<p>全套设计</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>软装家居
+				<div class="nav2_you_main">
+					<div class="nav_you_mainq">
+						<h5>4装修设计</h5>
+						<img src="image/TB1YJfwIpXXXXcbXpXXxNcETpXX-50-50.jpeg_50x50.jpg">
+						<div class="nav_you_mainq_1">
+							<p>家装设计师</p>
+							<p>全套设计</p>
+						</div>
+					</div>
+					<div class="nav_you_maina">
+						<h5>4装修设计</h5>
+						<img src="image/TB165WfIXXXXXbQaXXXtMOdHXXX-50-50.gif_50x50.jpg">
+						<div class="nav_you_mainq_1">
+							<p>家装设计师</p>
+							<p>全套设计</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>生活百货
+				<div class="nav2_you_main">
+					<div class="nav_you_mainq">
+						<h5>5装修设计</h5>
+						<img src="image/TB1YJfwIpXXXXcbXpXXxNcETpXX-50-50.jpeg_50x50.jpg">
+						<div class="nav_you_mainq_1">
+							<p>家装设计师</p>
+							<p>全套设计</p>
+						</div>
+					</div>
+					<div class="nav_you_maina">
+						<h5>装修设计</h5>
+						<img src="image/TB165WfIXXXXXbQaXXXtMOdHXXX-50-50.gif_50x50.jpg">
+						<div class="nav_you_mainq_1">
+							<p>家装设计师</p>
+							<p>全套设计</p>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<div class="nav2_yy">
+			<img src="image/renwu.png">
+			<p>我的极有家</p>
+			<i><img src="image/sanjiaoxiafang.png"></i>
+		</div>
+	</div>
+	<div id="hg"></div>
+	<div id="nav3">
+		<p>所有分类</p>
+		<img src="image/23.png">
+		<span>共 16.02万 件宝贝</span>
+	</div>
+	<div id="nav4">
+		<div class="nav4_1">
+			<p>品牌：</p>
+		</div>
+		<ul>
+			<li>JOMOO/九牧</li>
+			<li>TOTO</li>
+			<li>KOHLER/科勒</li>
+			<li>ARROW/箭牌</li>
+			<li>BULL/公牛</li>
+			<li>东鹏</li>
+			<li>submarine/潜水艇</li>
+			<li>Philips/飞利浦</li>
+			<li>089</li>
+			<li>k&c</li>
+		</ul>
+		<p>更多</p>
+		<img src="image/1.png">
+	</div>
+	<div id="nav5">
+		<div class="nav5_1">默认排序</div>
+		<ul>
+			<li title="销量从高到低">销量</li>
+			<li title="人气从高到低">人气</li>
+			<li title="信用从高到低">信用</li>
+			<li class="nav5_zong">总价 <img src="image/1.png">
+				<div class="nav5_1main">
+					<ul>
+						<li>价格从低到高</li>
+						<li>价格从高到低</li>
+						<li>总价从底到高</li>
+						<li>总价从高到底</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+		<div class="nav5_2">￥</div>
+		<div class="nav5_2">￥</div>
+		<div class="nav5_3">
+		<p>所在地
+			<div class="nav5_3_1">
+				<button>取消选择</button>
+				<p>同城：<a href="">北京</a></p>
+				<ul class="beijing">
+					<li>北京</li>
+					<li>上海</li>
+					<li>广东</li>
+					<li>深圳</li>
+					<li>杭州</li>
+					<li>海南</li>
+					<li>长沙</li>
+					<li>长春</li>
+					<li>成都</li>
+					<li>重庆</li>
+					<li>武汉</li>
+					<li>厦门</li>
+					<li>郑州</li>
+					<li>西安</li>
+				</ul>
+				<ul class="shanghai">
+					<li>北京</li>
+					<li>上海</li>
+					<li>广东</li>
+					<li>深圳</li>
+					<li>杭州</li>
+					<li>海南</li>
+					<li>长沙</li>
+					<li>长春</li>
+					<li>成都</li>
+					<li>重庆</li>
+					<li>武汉</li>
+					<li>厦门</li>
+					<li>郑州</li>
+					<li>西安</li>
+					<li>北京</li>
+					<li>上海</li>
+					<li>广东</li>
+					<li>深圳</li>
+					<li>杭州</li>
+					<li>海南</li>
+					<li>长沙</li>
+					<li>长春</li>
+					<li>成都</li>
+					<li>重庆</li>
+					<li>武汉</li>
+					<li>厦门</li>
+					<li>郑州</li>
+					<li>西安</li>
+				</ul>
+				<ul class="shanghai">
+					<li>北京</li>
+					<li>上海</li>
+					<li>广东</li>
+					<li>深圳</li>
+					<li>杭州</li>
+					<li>海南</li>
+					<li>长沙</li>
+					<li>长春</li>
+					<li>成都</li>
+					<li>重庆</li>
+					<li>武汉</li>
+					<li>厦门</li>
+					<li>郑州</li>
+					<li>西安</li>
+					<li>北京</li>
+					<li>上海</li>
+					<li>广东</li>
+					<li>深圳</li>
+					<li>杭州</li>
+					<li>海南</li>
+					<li>长沙</li>
+					<li>长春</li>
+					<li>成都</li>
+					<li>重庆</li>
+					<li>武汉</li>
+					<li>厦门</li>
+					<li>郑州</li>
+					<li>西安</li>
+				</ul>
+			</div>
+		</p>
+		<img src="image/1.png">
+		</div>
+		<div class="nav5_4"><img src="image/you123.png"></div>
+		<div class="nav5_5">1/72</div>
+		<div class="nav5_6"><img src="image/23.png"></div>
+	</div>
+	<div id="main">
+		<ul>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+			<li>
+				<img src="image/TB2XWNuoByWBuNkSmFPXXXguVXa_!!2254258096.jpg_230x230.jpg_.webp">
+				<div class="main_1">
+					<p>找相似</p>
+					<p>找不同</p>
+				</div>
+				<strong>￥1000.00<img src="image/168.jpg"></strong>
+				<a href="">靓家居 家庭室内装修公司设计效果图简约房子全屋装潢全包888/㎡</a>
+				<a href=""><img src="image/6.png">靓家居100</a>
+				<span>广东广州</span>
+				<i><img src="image/jinpai.png"></i>
+			</li>
+		</ul>
+	</div>
+	<!-- 底部 -->
+	<div id="footer2">
+		<ul>
+			<li>阿里巴巴<b> |</b></li>
+			<li>淘宝网<b> |</b></li>
+			<li>天猫<b> |</b></li>
+			<li>聚划算<b> |</b></li>
+			<li>全球<b> |</b></li>
+			<li>阿里巴巴国际交易市场<b>|</b></li>
+			<li>1688<b> |</b></li>
+			<li>阿里妈妈<b> |</b></li>
+			<li>飞猪<b></b> |</li>
+			<li>阿里云计算<b> |</b></li>
+			<li>Alios<b> |</b></li>
+			<li>阿里通信<b> |</b></li>
+			<li>一淘<b> |</b></li>
+			<li>万网<b> |</b></li>
+			<li>高德<b> |</b></li>
+			<li>UC<b> |</b></li>
+			<li>友盟<b> |</b></li>
+			<li>虾米<b> |</b></li>
+			<li>大麦网<b> |</b></li>
+			<li>钉钉<b> |</b></li>
+			<li>支付宝<b> |</b></li>
+			<li>优酷<b> |</b></li>
+			<li>土豆<b> |</b></li>
+			<li>阿里健康<b> |</b></li>
+			<li>阿里体育<b> |</b></li>
+			<li>网商银行<b></b></li>
+			<li></li>
+		</ul>
+	</div>
+	<div id="footer3">
+		<ul>
+			<li>关于淘宝</li>
+			<li>合作伙伴</li>
+			<li>营销中心</li>
+			<li>廉政举报</li>
+			<li>联系客服</li>
+			<li>开放平台</li>
+			<li>诚征英才</li>
+			<li>联系我们</li>
+			<li>网站地图</li>
+			<li>法律声明及隐私权政策</li>
+			<li>知识产权<b>|</b></li>
+			<li><font color="#999">© 2003-现在 Taobao.com 版权所有</font></li>
+			<li>网络文化经营许可证：浙网文[2016]0268-027号<b>|</b></li>
+			<li>增值电信业务经营许可证：浙B2-20080224<b>|</b></li>
+			<li><font color="#999">信息网络传播视听许可证：1109364号</font><b>|</b></li>
+			<li><font color="#999">互联网违法和不良信息举报电话:09403984</font><b>|</b></li>
+			<li> 浙公网安备 33010002000078号<b>|</b></li>
+				<li><font color="#999">（浙）网械平台备字[2018]第00004号</font><b>|</b></li>
+			<li>出版物网络交易平台服务经营备案证：新出发浙备字第002号<b>|</b></li>
+			<li>互联网药品信息服务资格证书编号：（浙）-经营性-2018-0010</li>
+		</ul>
+	</div>
+	<div id="footer4">
+		<img src="image/tupian.jpg">
+	</div>
+</body>
+</html>
